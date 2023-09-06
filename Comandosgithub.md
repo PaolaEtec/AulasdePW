@@ -11,3 +11,4 @@ git push
 
 -------------
 git pull atualizar repositório local
+git init transformar pasta local em git
