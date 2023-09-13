@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Carrinho de compras</h1>
+    <label for="prod_nome">Nome do Produto</label><input type="text" name="Nome" id="prod_nome"><br>
+    <label for="prod_marca">Marca do produto</label><input type="text" name="Marca" id="prod_marca"><br>
+    <label for="prod_preco">Preco do Produto</label><input type="number" name="Preço" id="prod_preco"><br>
+    <input type="button" value="Adicionar produto" onclick="Adicionar()">    
+    <ul id="lista_prod">
+    </ul>
+
+</body>
+</html>
+<!-- 
+ Label é como uma etiqueta que junto com for,em input referencia ao seu ID
+ Value -> valor/nome do botão, aparece p/ o usuario
+ Onclick -> no click nesse botão a função citada sera exucutada, no caso a função do js vai ser chamada 
+
+
+-->

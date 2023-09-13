@@ -11,4 +11,6 @@ git push
 
 -------------
 git pull atualizar repositório local
-git init transformar pasta local em git
+git init transformar pasta local em git/começar novo repositório
+git remote add origin https://github.com/PaolaEtec/AulasdePW.git
+git push -u origin main
