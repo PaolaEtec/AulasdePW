@@ -18,6 +18,63 @@ function Adicionar(){
    document.getElementById("lista_prod").appendChild(prod_item)
 
 }
+function soma(){
+   let n1  = document.getElementById("n1").value
+   let n2 = document.getElementById("n2").value
+   let res = parseFloat(n1)+parseFloat(n2)
+   alert(res)
+   console.log
+}
+
+function login(){
+   let email = document.getElementById('email').value
+   let senha = document.getElementById('senha').value
+   const s1 = "far@com"
+   const s2 = "fo"
+   if( email == s1 && senha == s2 ){
+       alert("Incrivel")
+   }
+   else{
+       alert("digite de novos")
+   }
+}
+
+
+function array(){
+
+   let lista = [9,2,3]
+   console.log(lista)
+   lista.push(30)
+   lista.push(2)
+   lista.push(8)
+   console.log(lista)
+   lista.pop()
+   console.log(lista)
+   console.log (lista[9])
+   lista[5] = 7
+   console.log(lista)
+
+}
+
+function lista(){
+   let carrinho = []
+
+
+   let prod = {
+       nome: "Arroz",
+       marca: "far",
+       preco: 2.2
+   }
+
+   
+   carrinho.push(prod);
+   console.log(carrinho)
+}
+
+
+
+
+
 //Variaveis: var - só está disponivel na mesma area que foi declarada. Tbm pode ser atualizada Ex: var global {var da função}, var n = hi var n = hi guys
 //Let - Pode ser atualizada, mas n pode ser declarada no mesmo espaço, só existe em um espaço. Ex:
 //Const - só pode ser declarada um vez dentro de seu escopo, não atualiza. Ex: só assim const = {jndendjenddj}
