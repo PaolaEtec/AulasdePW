@@ -1,4 +1,4 @@
-function calculadora(){
+function Calculadora(){
     let operacao = prompt("Digite a operação desejada:(Soma, Subtração, Multiplicação ou Divisão)")
     let n1 = parseFloat(prompt("Digite o primeiro numero:"))
     let n2 = parseFloat(prompt("Digite o segundo numero:"))
@@ -47,5 +47,5 @@ function mudaConstante(){
     console.log(nome2)
    // const nome2 = sobrenome
     console.log(nome2)
-
+    //Não é possivel mudar constante
 }

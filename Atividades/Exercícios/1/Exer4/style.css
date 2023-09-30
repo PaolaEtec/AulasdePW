@@ -1,0 +1,16 @@
+*{
+    margin: 10px;
+    background-color:  rgb(52, 101, 198);
+}
+body{
+    margin: 10px
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(142, 185, 222, 0.687);
+    margin: 200px 300px;
+
+}

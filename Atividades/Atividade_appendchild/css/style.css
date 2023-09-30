@@ -1,0 +1,45 @@
+
+*{
+    margin: 5px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(237, 206, 211);
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li.Lista{
+    margin: 5px;
+    padding: 10px;
+    margin: 20px 20px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+}
+.Title2{
+    display: flex;
+    justify-content: center;
+}
+.Corpo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.Informacoes{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(222, 76, 100);
+    margin: 10px 500px;
+}
+button{
+    display: flex;
+}

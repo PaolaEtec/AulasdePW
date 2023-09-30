@@ -1,0 +1,31 @@
+*{
+    margin: 0x;
+
+}
+body{
+    margin: 10px;
+    background-color: rgb(52, 101, 198);
+    font-family: 'Open Sans', sans-serif;
+}
+.corpo{
+    margin: 150px 500px;
+    background-color: rgba(142, 185, 222, 0.687);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin: 10px;
+}
