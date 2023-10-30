@@ -14,7 +14,7 @@ JSON - javascript object notation
 https://jsonplaceholder.typicode.com
 
 
-
+Fazer:
 
 GET	/posts
 GET	/posts/1

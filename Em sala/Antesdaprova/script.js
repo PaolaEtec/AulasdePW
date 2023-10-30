@@ -9,7 +9,7 @@ function Adicionar(){
    const prod_nome = document.createElement("h3")   
    const prod_marca = document.createElement("h4")
    const prod_preco = document.createElement("p")
-   prod_nome.innerHTML = produto.Nome
+   prod_nome.innerHTML = produto.Nome;
    prod_marca.innerHTML = produto.Marca;
    prod_preco.innerHTML = produto.Preco;
    prod_item.appendChild(prod_nome);

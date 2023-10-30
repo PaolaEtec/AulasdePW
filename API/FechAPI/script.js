@@ -1,6 +1,7 @@
 //18/10/23
 //Pegar dados da API 
 const URL ='https://jsonplaceholder.typicode.com/posts'
+
 function getApidata(){
 //Busca dados da API 
 //Exibir uma informação na tela
