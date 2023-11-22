@@ -1,0 +1,27 @@
+/*Media Query ou @Medisa Query faz uyma solicitação, uma pergunta p/ o navegador e executar o que esta dentro dele*/
+/*/ css le tudo de cima para baixo*/
+como que usa, afeta diretamente o uso do usuario
+/* tudo q tem no site mobile tem q ter no desktop*/
+#uepa{
+    background-color: aqua;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+
+#uepa{
+    background-color: blue;
+    width: 75%;
+}
+
+}
+/*Somente para telas, largagura em pixels, max é dali para baixo*/
+@media only screen and (max-width: 400px){
+
+    #uepa{
+        background-color: red;
+        width: 50%;
+    }
+}
+
+/*Bootstrap é uma framework, ajuda na responsividade*/
