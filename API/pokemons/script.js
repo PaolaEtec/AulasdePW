@@ -24,7 +24,7 @@ function showPokemonList(){
                 document.getElementById("uepa").appendChild(liPokemon)
             })
             return json})
-            return listaPokemon
+            return listaPokemons
         }
     })
 }
